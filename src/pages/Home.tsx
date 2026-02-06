@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown, Download, ExternalLink, Github, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import AmitImg from "../media/Amit_Braj.png";
+
 
 const Home = () => {
   const scrollToNext = () => {
@@ -29,8 +31,8 @@ const Home = () => {
             >
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-xl">
                 <img
-                  src="https://media.licdn.com/dms/image/v2/D5603AQE9UVYiq3QtmQ/profile-displayphoto-shrink_800_800/B56ZbzGQNsGoAk-/0/1747835225494?e=1757548800&v=beta&t=lhSd9S7jh1BSRlIdoqG1Qt_W4PQpYWe-wFaAuazSZ5Q"
-                  alt="Profile"
+                  src={AmitImg}
+                  alt="Amit Braj"
                   className="w-full h-full object-cover"
                 />
               </div>
