@@ -77,7 +77,7 @@ const Home = () => {
                 </Link>
                 
                 <a
-                  href="/src/media/Amit_Braj_Resume.pdf"
+                  href="/src/media/Amit_Braj_Resume1.pdf"
                   download
                   className="border-2 border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400 px-8 py-3 rounded-full font-medium hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transition-all duration-300 flex items-center gap-2"
                 >
